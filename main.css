@@ -42,8 +42,8 @@ body {
 }
 
 .commander-btn button {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: #fff;
+  color: #B2D234;
   padding: 8px 15px;
   border: none;
   border-radius: 5px;
@@ -72,12 +72,12 @@ body {
   height: 24px;
 }
 .container_page1 h1 {
-  color: white;
+  color: #fff;
   margin-bottom: 10px;
   font-size: 100px;
 }
 .container_page1 p {
-  color: white;
+  color: #fff;
   margin-top: 10px;
   font-size: 40px;
   transform: skewY(-10deg);
@@ -98,7 +98,7 @@ body {
   height: 100vh;
   background: url("img/back2.png") no-repeat center center fixed;
   background-size: cover;
-  background-color: white;
+  background-color: #fff;
 }
 .container_page2 .content {
   display: flex;
@@ -125,12 +125,12 @@ body {
 .container_page2 p {
   font-size: 20px;
   margin-bottom: 20px;
-  color: black;
+  color: #000;
   text-align: left;
 }
 .container_page2 button {
   padding: 10px 20px;
-  background-color: #4caf50;
+  background-color: #B2D234;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -148,7 +148,7 @@ body {
   height: 100vh;
   background: url("img/back3.png") no-repeat center center fixed;
   background-size: cover;
-  background-color: white;
+  background-color: #fff;
 }
 .container_page3 .content {
   display: flex;
@@ -166,18 +166,18 @@ body {
 .container_page3 h3 {
   font-size: 70px;
   margin-bottom: 10px;
-  color: white;
+  color: #fff;
   text-align: left;
 }
 .container_page3 p {
   font-size: 20px;
   margin-bottom: 20px;
-  color: white;
+  color: #fff;
   text-align: left;
 }
 .container_page3 button {
   padding: 10px 20px;
-  background-color: white;
+  background-color: #fff;
   color: #B2D234;
   border: none;
   border-radius: 5px;

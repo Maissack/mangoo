@@ -23,7 +23,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  color: #fff;
+  color: $color-white;
 
   .logo img {
     width: 50px;
@@ -41,14 +41,14 @@ body {
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: $color-white;
     font-weight: bold;
   }
 }
 
 .commander-btn button {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: $color-white;
+  color: $color-green;
   padding: 8px 15px;
   border: none;
   border-radius: 5px;
@@ -79,13 +79,13 @@ body {
   }
 
   h1 {
-    color: white;
+    color: $color-white;
     margin-bottom: 10px;
     font-size: 100px;
   }
 
   p {
-    color: white;
+    color: $color-white;
     margin-top: 10px;
     font-size: 40px;
     transform: skewY(-10deg);

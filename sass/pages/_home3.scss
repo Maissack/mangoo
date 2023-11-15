@@ -9,7 +9,7 @@
     height: 100vh;
     background: url('img/back3.png') no-repeat center center fixed;
     background-size: cover;
-    background-color: white;
+    background-color: $color-white;
   
     .content {
       display: flex;
@@ -31,21 +31,21 @@
     h3 {
       font-size: 70px;
       margin-bottom: 10px;
-      color: white;
+      color: $color-white;
       text-align: left;
     }
   
     p {
       font-size: 20px;
       margin-bottom: 20px;
-      color: white;
+      color: $color-white;
       text-align: left;
     }
   
     button {
       padding: 10px 20px;
-      background-color: white;
-      color: #B2D234;
+      background-color: $color-white;
+      color: $color-green;
       border: none;
       border-radius: 5px;
       cursor: pointer;
