@@ -315,6 +315,99 @@ body {
   background-color: rgba(96, 160, 216, 0.5);
 }
 
+.container_page6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("img/back2.png") no-repeat center center fixed;
+  background-size: cover;
+  background-color: #fff;
+  padding: 20px;
+  height: 100vh;
+}
+.container_page6:last-child {
+  margin-top: 20px;
+}
+.container_page6 .content {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.container_page6 .content .image img {
+  width: 80%;
+  display: block;
+  margin-left: 15%;
+}
+.container_page6 .content .text {
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container_page6 .form-wrapper {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 5%;
+}
+.container_page6 .form-wrapper .text-form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container_page6 .form-wrapper .text-form h3 {
+  color: #B2D234;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.container_page6 .form-wrapper .text-form p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.container_page6 .form-wrapper .form-container {
+  width: 100%;
+}
+.container_page6 .form-wrapper .form-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container_page6 .form-wrapper .form-container form .row {
+  display: flex;
+  margin-bottom: 12px;
+}
+.container_page6 .form-wrapper .form-container form .row .col {
+  flex: 1;
+  margin-right: 10px;
+}
+.container_page6 .form-wrapper .form-container form .row .col:last-child {
+  margin-right: 0;
+}
+.container_page6 .form-wrapper .form-container form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #B2D234;
+}
+.container_page6 .form-wrapper .form-container form input,
+.container_page6 .form-wrapper .form-container form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+.container_page6 .form-wrapper .form-container form button {
+  width: 130px;
+  height: 30px;
+  background-color: #B2D234;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 * {
   overflow-x: hidden;
 }
