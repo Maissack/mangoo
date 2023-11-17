@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../base/typography' as *;
 
 * {
   margin: 0;
@@ -81,13 +82,13 @@ body {
   h1 {
     color: $color-white;
     margin-bottom: 10px;
-    font-size: 100px;
+    font-size: $font_size-h1;
   }
 
   p {
     color: $color-white;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: $font_size-p;
     transform: skewY(-10deg);
   }
 }

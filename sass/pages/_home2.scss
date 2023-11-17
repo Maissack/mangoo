@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../base/typography' as *;
 
 .container_page2 {
   text-align: center;
@@ -31,15 +32,15 @@
     }
   }
 
-  h3 {
-    font-size: 70px;
+  h2 {
+    font-size: $font_size-h2;
     margin-bottom: 10px;
     color: $color-green;
     text-align: left;
   }
 
   p {
-    font-size: 20px;
+    font-size: $font_size-p;
     margin-bottom: 20px;
     color: $color-black;
     text-align: left;

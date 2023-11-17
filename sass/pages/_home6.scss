@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../base/typography' as *;
 
 .container_page6 {
     display: flex;
@@ -28,12 +29,7 @@
             }
         }
 
-        .text {
-            color: $color-black;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+
     }
 
     .form-wrapper {
@@ -50,15 +46,18 @@
             margin-bottom: 20px;
             text-align: center;
 
-            h3 {
+            h2 {
                 color: $color-green;
                 margin-top: 0;
                 margin-bottom: 10px;
+                font-size: $font_size-h2;
             }
 
             p {
                 margin-top: 0;
                 margin-bottom: 10px;
+                font-size: $font_size-p;
+                color: $color-black;
             }
         }
 
@@ -88,6 +87,7 @@
                     display: block;
                     margin-bottom: 8px;
                     color: $color-green;
+                    font-size: $font_size-label_text;
                 }
 
                 input,
@@ -101,7 +101,7 @@
                     width: 130px;
                     height: 30px;
                     background-color: $color-green;
-                    color: white;
+                    color: $color-white;
                     border: none;
                     cursor: pointer;
                 }

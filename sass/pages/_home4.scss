@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as *;
+@use '../base/typography' as *;
 
 .container_page4 {
   position: relative;
@@ -24,14 +25,14 @@
       margin-bottom: 40px;
       padding-top: 20px;
 
-      h3 {
+      h2 {
         margin-bottom: 10px;
-        font-size: 24px;
+        font-size: $font_size-h2;
         color: $color-green;
       }
 
       p {
-        font-size: 16px;
+        font-size: $font_size-p;
         color: $color-black;
       }
     }
@@ -45,14 +46,14 @@
         text-align: left;
         margin-right: 20px;
 
-        h5 {
+        h4 {
           margin-bottom: 5px;
-          font-size: 18px;
+          font-size: $font_size-h4;
           color: $color-green;
         }
 
         p {
-          font-size: 14px;
+          font-size: $font_size-p;
           color: $color-black;
         }
       }
@@ -63,18 +64,18 @@
 
         #green_force{
           margin-bottom: 10px;
-          font-size: 20px;
+          font-size: $font_size-green_force;
           color: $color-green;
         }
 
         #blue_force{
             margin-bottom: 10px;
-            font-size: 20px;
+            font-size: $font_size-blue_force;
             color: $color-blue;
           }
 
         p {
-          font-size: 14px;
+          font-size: $font_size-p;
           color: $color-black;
         }
 
